@@ -1,22 +1,13 @@
-# Interactive Accessibility Lesson
+# Reflection - Interactive Accessibility Lesson
 
-Install the dependencies and run the project
+What accessibility enhancements were the most challenging to implement, and why?
 
-```
-npm install
-npm start
-```
+- Determining where and when ARIA is necessary was the most challenging because it seems like it's only necessary when using container elements like div or span but best practices are to avoid them.
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
+How do ARIA attributes improve the experience for users relying on assistive technologies?
 
-## About Scrimba
+- ARIA attributes improves users experience because it adds context information that isn't already programmed in certain elements. This allows users to navigate and understand the behavior of elements.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+What tools did you use to check color contrast, and how did they help?
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
+- I used Devtools and https://webaim.org/resources/linkcontrastchecker/ and they were both very helpful. I think it's easier to use Devtools instead of that website because you don't have to manually enter colors.
