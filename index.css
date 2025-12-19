@@ -68,18 +68,11 @@ body,
   cursor: pointer;
   font-family: "Poppins", sans-serif;
 }
+.contact-submit-button:focus {
+  color: darkmagenta;
+  border: 1rem ridge darkmagenta;
+}
 .contact-submit-button:hover {
   background-color: #dddddd;
 }
 
-/* 
-Current issues:
-- Placeholder text has poor text contrast.
-- Missing alternative text for images.
-- Missing labels for input fields.
-- Ambiguous button text.
-- Semantic HTML is lacking.
-- Font-sizes are defined in px.
-
-Your final challenge: Use your new superpower to make our contact page accessible!🦸
-*/

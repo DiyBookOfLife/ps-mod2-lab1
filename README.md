@@ -1,4 +1,4 @@
-# Getting Started
+# Interactive Accessibility Lesson
 
 Install the dependencies and run the project
 
